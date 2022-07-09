@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass';
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.component1{
+    border-radius: 20px;
+    background-image: linear-gradient(#232A33, #171E28);
+    width: 390px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.component1 img, h1{
+    align-self: flex-start;
+}
+
+.component1 img{
+    margin-top: 30px;
+    margin-left: 31px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 45%;
+    background-color: hsl(208, 17%, 20%);
+}
+
+.component1 h1{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.component1 p{
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+.component1 section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.component1 section span{
+    font-weight: 700;
+    font-size: 15px;
+    background-color: hsl(210, 17%, 18%);
+    color: hsl(217, 12%, 63%);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+
+.component1 button{
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border: 0;
+    border-radius: 20px;
+    width: 84%;
+    height: 12%;
+    align-self: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.component1 button:hover{
+    cursor: pointer;
+}
+
+.component1 button:active{
+    width: 85%;
+    font-size: 14px;
+}
+
+.component1 section span:hover{
+    background-color: hsl(216, 12%, 54%);
+    cursor: pointer;
+}
+
+.component1 section span:active{
+    font-size: 17px;
+    background-color: hsl(25, 97%, 53%);
+}
